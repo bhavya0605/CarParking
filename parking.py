@@ -7,6 +7,7 @@ import datetime
 import os
 import io
 from dotenv import load_dotenv
+load_dotenv()
 API_TOKEN = os.getenv('API_KEY')
 # --- Configuration ---
 # IMPORTANT: Replace with your actual token
